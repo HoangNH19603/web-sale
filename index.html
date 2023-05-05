@@ -1,0 +1,65 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: #FFA559;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: white;   
+        padding: 15px 0 15px 0;
+		font-size: 20px;
+        margin: 10px 0px;
+		border: none;
+        cursor: pointer;
+         }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;
+	 	border-radius: 10px;
+        box-sizing: border-box;   
+    }
+     
+ .container {
+        padding: 25px;   
+        background-color: white;
+	 	border-radius: 20px;
+    }
+.container > a[href="#"] {
+	float: right;
+	text-decoration: none;
+}
+
+#form_bruh {
+    padding-top: 10%;
+    width: 40%;
+    margin: auto;
+}
+</style>   
+</head>    
+<body>    
+    <form id="form_bruh">  
+        <center> <h1> Shop online login account </h1> </center>   
+        <div class="container">   
+            <label>Username : </label>   
+            <input id="username" type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>
+            <input id="password" type="password" placeholder="Enter Password" name="password" required>  
+            <button type="button" onclick="onclickLogin()">Login</button>
+			<p id="alert"></p>
+            <input type="checkbox" checked="checked"> Remember me
+            <a href="#">Forgot password? </a>   
+        </div>   
+    </form>
+	<script type="text/javascript" src="script.js"></script>
+	<noscript>Holy fuck it's <h1>DauCatMoi</h1></noscript>
+</body>
+</html>

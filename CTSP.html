@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra cuu</title>
+
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+      body{
+        background-color: white;
+      }
+
+      #frame_tin_tuc {
+        width: 100%;
+        height: 950px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="topbar">
+            
+                <a href=""><img src="\Ảnh\logo.png" alt="logo"></a>
+            
+            
+            <div class="topp">
+                
+                <div class="searchbar"><input type="text" placeholder="Nhập nội dung ở đây"><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
+            </div>
+            <button id="cart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>Giỏ Hàng
+            </button>
+        
+          </div><br>
+          <div class="topbarr">
+            <a href="HomePage.html">TRANG CHỦ</a>
+            <a href="#lienHe">LIÊN HỆ</a>
+            <a href="SP.html">SẢN PHẨM</a>
+            <a href="TinTuc.html">TIN TỨC</a>
+            <a href="TraCuu.html">TRA CỨU</a>
+            <a href="index.html">Đăng Nhập</a>
+          </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <div class="zll"></div>
+                            <span id="sp" class="cart-item cart-header">Sản Phẩm</span>
+                            <span id="gia" class="cart-price cart-header">Giá</span>
+                            <span id="sl" class="cart-quantity cart-header">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                          <div></div>
+                        </div>    
+                    </div>
+                    <div class="modal-footer">
+                      <div class="cart-total">
+                        <strong class="cart-total-title">Tổng Cộng:</strong>
+                        <span class="cart-total-price">0VNĐ</span>
+                      </div>
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <iframe id="frame_tin_tuc" src="ChiTietSP.html" title="W3Schools Free Online Web Tutorials">
+    </iframe>
+
+    
+    <!-- footer -->
+    <footer id="lienHe">
+        <div class="footer-item">
+            <h3> THÔNG TIN LIÊN HỆ</h3>
+            <a ><i class="fa-solid fa-location-dot"></i>Địa chỉ: Số 22 Lô A8 Khu Monbay - Phố Hải Long, Hồng Hải, Thành phố Hạ Long, Quảng Ninh.</a>
+            <a ><i class="fa-solid fa-phone"></i>0384791270</a>
+            <a ><i class="fa-solid fa-envelope"></i>Email: phamduyanhtudbk43</a>
+            <a href="https://www.facebook.com/pham.duyanh.1253?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i>Facebook</a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fpham.duyanh.091103%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR3PJXA8mHZU5rf9AgXLrhG7sPqylj3bjnFs4V4DJEqimNV78DpqHaItvFQ&h=AT13njf6y6yJEkSIT1j04-N0IfW8-flITn9XxzZgP0mRBvAZyI20wtk1pCAcGslSAmJeZA6Pq-mQAUzRpJAs7225T-El-MUKt4JyOu1FvtnEVhZLoFhD9zg3x6_u-UtOLu3W6w"><i class="fa-brands fa-instagram"></i>Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
